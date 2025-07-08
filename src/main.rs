@@ -63,7 +63,7 @@ impl eframe::App for BattleStructureApp {
         }
 
         egui::TopBottomPanel::top("app_top_bar")
-            .frame(egui::Frame::none().inner_margin(4.0))
+            .frame(egui::Frame::side_top_panel(&ctx.style()).inner_margin(4.0))
             .show(ctx, |ui| {
                 egui::menu::bar(ui, |ui| {
                     ui.menu_button("File", |ui| {
