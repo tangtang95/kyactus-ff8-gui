@@ -10,12 +10,12 @@ version = "0.2.1"
 edition = "2021"
 
 [dependencies]
-egui = "0.28.1"
-eframe = "0.28.1"
+egui = "0.31.1"
+eframe = "0.31.1"
 async-std = "1.13.0"
 anyhow = "1.0.86"
-binrw = "0.14.0"
-rfd = "0.14.1"
+binrw = "0.15.0"
+rfd = "0.15.3"
 
 [dev-dependencies]
-hex-literal = "0.4.1"
+hex-literal = "1.0.0"

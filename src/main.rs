@@ -323,7 +323,7 @@ fn enemy_contents(ui: &mut egui::Ui, enemy: &mut Enemy) {
 }
 
 fn frame() -> egui::Frame {
-    egui::Frame::none()
+    egui::Frame::new()
         .inner_margin(8.0)
         .outer_margin(4.0)
 }
